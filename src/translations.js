@@ -102,10 +102,6 @@ export const translations = {
     faq1A: "For a standard business website, it usually takes around 7 to 14 days depending on the requirements and materials provided.",
     faq2Q: "Do I need to pay a deposit?",
     faq2A: "Yes, we require a 50% deposit before commencing the project to secure your slot.",
-    faq3Q: "Can I manage the website content myself later?",
-    faq3A: "Absolutely! We build websites using user-friendly CMS platforms so you can easily update text and images yourself.",
-    faq4Q: "Is hosting and domain included?",
-    faq4A: "We provide hosting and domain registration assistance. Depending on the package chosen, the first year might be fully covered.",
     
     // Footer
     footerText: "© 2026 FunTechz Digital Services. All rights reserved."
@@ -215,10 +211,6 @@ export const translations = {
     faq1A: "Untuk laman web perniagaan standard, ia mengambil masa sekitar 7 hingga 14 hari bergantung pada bahan yang diberikan.",
     faq2Q: "Adakah saya perlu membayar deposit?",
     faq2A: "Ya, kami memerlukan 50% deposit sebelum memulakan projek sebagai komitmen antara kedua-dua pihak.",
-    faq3Q: "Bolehkah saya kemas kini kandungan sendiri nanti?",
-    faq3A: "Sudah tentu! Kami membina laman web menggunakan CMS yang mudah supaya anda boleh menukar gambar dan teks tanpa kod.",
-    faq4Q: "Adakah hosting dan domain termasuk sekali?",
-    faq4A: "Kami menyediakan khidmat pendaftaran domain & hosting. Bergantung pada pakej, kos tahun pertama mungkin telah dirangkumkan.",
     
     // Footer
     footerText: "© 2026 FunTechz Digital Services. Hak cipta terpelihara."

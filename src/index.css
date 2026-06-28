@@ -37,10 +37,62 @@
 body {
   font-family: var(--font-main);
   background-color: var(--bg-main);
+  /* Modern dot grid */
+  background-image: radial-gradient(rgba(163, 177, 198, 0.2) 1.5px, transparent 1.5px);
+  background-size: 30px 30px;
   color: var(--text-body);
   line-height: 1.7;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+[data-theme="dark"] body {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1.5px, transparent 1.5px);
+}
+
+/* Animated Glowing Orbs */
+body::before, body::after {
+  content: '';
+  position: fixed;
+  width: 60vw;
+  height: 60vw;
+  max-width: 800px;
+  max-height: 800px;
+  border-radius: 50%;
+  filter: blur(120px);
+  z-index: -1;
+  opacity: 0.4;
+  animation: floatOrb 25s infinite alternate ease-in-out;
+  pointer-events: none;
+}
+
+body::before {
+  top: -10%;
+  left: -10%;
+  background: rgba(49, 130, 206, 0.25);
+}
+
+body::after {
+  bottom: -10%;
+  right: -10%;
+  background: rgba(159, 122, 234, 0.2);
+  animation-delay: -12s;
+  animation-duration: 30s;
+}
+
+[data-theme="dark"] body::before {
+  background: rgba(99, 179, 237, 0.15);
+}
+
+[data-theme="dark"] body::after {
+  background: rgba(159, 122, 234, 0.1);
+}
+
+@keyframes floatOrb {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(5%, 10%) scale(1.1); }
+  100% { transform: translate(-5%, 5%) scale(0.9); }
 }
 
 a {

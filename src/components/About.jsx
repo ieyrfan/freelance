@@ -11,7 +11,7 @@ const About = () => {
         <h2 className="section-title reveal">{t.aboutTitle}</h2>
         
         <div className="whyus-content reveal">
-          <div className="whyus-text glass">
+          <div className="whyus-text">
             <h3>{t.aboutSubtitle}</h3>
             <p>{t.aboutDesc}</p>
           </div>

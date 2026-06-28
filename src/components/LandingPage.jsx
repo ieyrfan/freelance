@@ -3,6 +3,7 @@ import Hero from './Hero';
 import Services from './Services';
 import Projects from './Projects';
 import About from './About';
+import Certifications from './Certifications';
 import Testimonials from './Testimonials';
 import FAQ from './FAQ';
 import Contact from './Contact';
@@ -23,6 +24,7 @@ const LandingPage = () => {
         <Projects />
         <Testimonials />
         <About />
+        <Certifications />
         <FAQ />
         <Contact />
       </main>

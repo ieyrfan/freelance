@@ -26,7 +26,14 @@ export const translations = {
 
     // Services
     servicesTitle: "Our Services",
+    
+    // Pricing
+    pricingTitle: "Project Estimator",
+    pricingDesc: "Customize your package and get an instant estimated price.",
+
+    // About
     servicesBtn: "Get a Quote",
+    aboutTitle: "About The Founder",
     service1Title: "Resume / CV",
     service1Desc: "Professional, ATS-friendly design. Harvard format or modern layout.",
     service2Title: "Portfolio Website",
@@ -55,7 +62,6 @@ export const translations = {
     port4Desc: "Islamic Super App for Muslims in Malaysia with Al-Quran & Prayer Times.",
 
     // About
-    aboutTitle: "About The Founder",
     aboutSubtitle: "Your Digital Development Expert",
     aboutDesc: "At FunTechz Digital Services, we combine strong technical expertise with a deep understanding of local business needs to deliver the best digital solutions.",
     aboutItem1Title: "Muhammad Irfan Bin Rizal",
@@ -132,7 +138,14 @@ export const translations = {
 
     // Services
     servicesTitle: "Servis Kami",
+    
+    // Pricing
+    pricingTitle: "Anggaran Kos Projek",
+    pricingDesc: "Pilih keperluan anda dan dapatkan anggaran harga serta merta.",
+
+    // About
     servicesBtn: "Tanya Harga",
+    aboutTitle: "Mengenai Pengasas",
     service1Title: "Resume / CV",
     service1Desc: "Reka bentuk profesional mesra-ATS. Format Harvard atau susun atur moden.",
     service2Title: "Website Portfolio",

@@ -1,0 +1,131 @@
+.pricing-section {
+  position: relative;
+}
+
+.pricing-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 4rem;
+}
+
+.option-group {
+  margin-bottom: 2rem;
+}
+
+.option-group label {
+  display: block;
+  font-weight: 600;
+  color: var(--text-title);
+  margin-bottom: 1rem;
+}
+
+.toggle-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  border-radius: 16px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.checkbox-item:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+.checkbox-item.active {
+  box-shadow: var(--shadow-inset);
+}
+
+.check-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--bg-main);
+  box-shadow: var(--shadow-inset);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-primary);
+}
+
+.checkbox-item span {
+  color: var(--text-body);
+  font-weight: 500;
+}
+
+.checkbox-item.active span {
+  color: var(--text-title);
+}
+
+.pricing-result {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-card {
+  padding: 3rem;
+  border-radius: 24px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.result-icon {
+  color: var(--accent-primary);
+  margin: 0 auto 1.5rem auto;
+}
+
+.result-card h4 {
+  color: var(--text-body);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.price-display {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.currency {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-title);
+  margin-top: 0.5rem;
+}
+
+.amount {
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: var(--accent-primary);
+  line-height: 1;
+}
+
+.result-card p {
+  color: var(--text-body);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 968px) {
+  .pricing-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 2rem;
+  }
+}

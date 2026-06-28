@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg-main: #e0e5ec;
+  --text-title: #2d3748;
+  --text-body: #4a5568;
+  
+  --accent-primary: #3182ce;
+  
+  /* Neumorphism Shadows */
+  --shadow-outset: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.7);
+  --shadow-inset: inset 6px 6px 10px rgba(163, 177, 198, 0.6), inset -6px -6px 10px rgba(255, 255, 255, 0.7);
+  --shadow-hover: 4px 4px 8px rgba(163, 177, 198, 0.5), -4px -4px 8px rgba(255, 255, 255, 0.6);
+  
+  --font-main: 'Poppins', sans-serif;
+}
+
+[data-theme="dark"] {
+  --bg-main: #1a202c;
+  --text-title: #f7fafc;
+  --text-body: #a0aec0;
+  
+  --accent-primary: #63b3ed;
+  
+  /* Premium Dark Neumorphism Shadows */
+  --shadow-outset: 8px 8px 16px rgba(0, 0, 0, 0.45), -8px -8px 16px rgba(255, 255, 255, 0.03);
+  --shadow-inset: inset 6px 6px 12px rgba(0, 0, 0, 0.45), inset -6px -6px 12px rgba(255, 255, 255, 0.03);
+  --shadow-hover: 4px 4px 10px rgba(0, 0, 0, 0.6), -4px -4px 10px rgba(255, 255, 255, 0.02);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-main);
+  color: var(--text-body);
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--text-title);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent-primary);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* UI Elements */
+.glass {
+  background-color: var(--bg-main);
+  border-radius: 20px;
+  box-shadow: var(--shadow-outset);
+  border: none;
+}
+
+/* Modern Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.8rem 1.8rem;
+  border-radius: 30px;
+  font-family: var(--font-main);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  background-color: var(--bg-main);
+  color: var(--accent-primary);
+  box-shadow: var(--shadow-outset);
+}
+
+.btn:active, .btn-primary:active {
+  box-shadow: var(--shadow-inset);
+}
+
+.btn-primary {
+  color: var(--accent-primary);
+}
+
+.btn-primary:hover {
+  box-shadow: var(--shadow-hover);
+  color: #2b6cb0;
+}
+
+.btn-secondary {
+  color: var(--text-title);
+}
+
+.btn-secondary:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+/* Sections */
+section {
+  padding: 6rem 0;
+  position: relative;
+}
+
+.section-title {
+  font-family: var(--font-main);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+  text-align: center;
+  color: var(--text-title);
+}
+
+/* Typography Overrides */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-main);
+  color: var(--text-title);
+}
+
+/* Layout Utilities */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 3rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeInUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Scroll Reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}

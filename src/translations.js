@@ -1,0 +1,213 @@
+export const translations = {
+  en: {
+    // Navbar
+    navHome: "Home",
+    navServices: "Services",
+    navPortfolio: "Portfolio",
+    navAbout: "About",
+    navContact: "Hire Me",
+    
+    // Hero
+    heroGreeting: "FunTechz Digital Services",
+    heroTitlePart1: "Elevate Your ",
+    heroTitlePart2: "Career",
+    heroTitlePart3: " & ",
+    heroTitlePart4: "Business",
+    heroSubtitle: "Professional Websites & Resumes",
+    heroDesc: "We build blazing fast business websites, standout portfolios, and ATS-friendly resumes to help you land more clients and opportunities.",
+    heroBtnPrimary: "WhatsApp Now",
+    heroBtnSecondary: "View Portfolio",
+    heroStat1: "Google Maps",
+    heroStat1Desc: "Easily Found",
+    heroStat2: "Websites",
+    heroStat2Desc: "Pro Profiles",
+    heroStat3: "Systems",
+    heroStat3Desc: "Auto Booking",
+
+    // Services
+    servicesTitle: "Our Services",
+    servicesBtn: "Get a Quote",
+    service1Title: "Resume / CV",
+    service1Desc: "Professional, ATS-friendly design. Harvard format or modern layout.",
+    service2Title: "Portfolio Website",
+    service2Desc: "Clean personal site to showcase your work and skills.",
+    service3Title: "Presentation / Deck",
+    service3Desc: "Polished slides for assignments, pitches, or projects.",
+    service4Title: "Simple Web App",
+    service4Desc: "Landing page, form, or small tool — HTML/CSS/JS or React.",
+    service5Title: "Cloud Setup",
+    service5Desc: "Basic AWS architecture, hosting, or deployment help.",
+
+    // Portfolio
+    portfolioTitle: "Project Portfolio",
+    portfolioBtn: "View Full Portfolio",
+    portfolioTypeWebApp: "WEB APP",
+    portfolioTypeCloud: "CLOUD",
+    portfolioTypeCyber: "CYBERSEC",
+    portfolioTypeFull: "FULLSTACK",
+    port1Title: "MindCare Malaysia",
+    port1Desc: "Mental health platform for Malaysian university students.",
+    port2Title: "AMERTA Pipeline",
+    port2Desc: "Real-time SCADA monitoring system for oil and gas networks.",
+    port3Title: "AEGIS Cyber Dashboard",
+    port3Desc: "Cloud-based SOC dashboard with 3D threat globes.",
+    port4Title: "NIYYAH",
+    port4Desc: "Islamic Super App for Muslims in Malaysia with Al-Quran & Prayer Times.",
+
+    // About
+    aboutTitle: "About The Founder",
+    aboutSubtitle: "Your Digital Development Expert",
+    aboutDesc: "At FunTechz Digital Services, we combine strong technical expertise with a deep understanding of local business needs to deliver the best digital solutions.",
+    aboutItem1Title: "Muhammad Irfan Bin Rizal",
+    aboutItem1Desc: "Founder & Lead Developer of FunTechz.",
+    aboutItem2Title: "Academic Background",
+    aboutItem2Desc: "B.Tech Cloud Computing student at Technical University of Malaysia Malacca (UTeM).",
+    aboutItem3Title: "Professional Certifications",
+    aboutItem3Desc: "Certified in AWS & Cisco Network Defense.",
+
+    // Contact
+    contactTitle: "Contact Us",
+    contactSubtitle: "Ready for Digital Transformation?",
+    contactDesc: "Whether you want to build a website, a booking system, or need a complete package, we are ready to help make it a reality.",
+    contactBtnWa: "WhatsApp Us",
+    contactFormName: "Your Name / Company",
+    contactFormNamePlaceholder: "Enter your name...",
+    contactFormEmail: "Email",
+    contactFormEmailPlaceholder: "Enter your email...",
+    contactFormDetails: "Project Requirements",
+    contactFormDetailsPlaceholder: "State your business needs...",
+    contactSubmitBtn: "Send Inquiry",
+
+    // Testimonials
+    testiTitle: "Client Reviews",
+    testi1Name: "Ahmad Faizal",
+    testi1Role: "Cafe Owner",
+    testi1Text: "Since having a website and booking system from FunTechz, my cafe receives daily reservations effortlessly. Excellent service!",
+    testi2Name: "Sarah Liyana",
+    testi2Role: "Freelance Designer",
+    testi2Text: "The portfolio website they built is very modern and blazing fast. Many clients are impressed with the neat presentation.",
+    testi3Name: "Dr. Kamal",
+    testi3Role: "Clinic Founder",
+    testi3Text: "Highly professional and fast development. The digital presence of our clinic improved tremendously on Google Maps.",
+
+    // FAQ
+    faqTitle: "Frequently Asked Questions",
+    faq1Q: "How long does it take to build a website?",
+    faq1A: "For a standard business website, it usually takes around 7 to 14 days depending on the requirements and materials provided.",
+    faq2Q: "Do I need to pay a deposit?",
+    faq2A: "Yes, we require a 50% deposit before commencing the project to secure your slot.",
+    faq3Q: "Can I manage the website content myself later?",
+    faq3A: "Absolutely! We build websites using user-friendly CMS platforms so you can easily update text and images yourself.",
+    faq4Q: "Is hosting and domain included?",
+    faq4A: "We provide hosting and domain registration assistance. Depending on the package chosen, the first year might be fully covered.",
+    
+    // Footer
+    footerText: "© 2026 FunTechz Digital Services. All rights reserved."
+  },
+  ms: {
+    // Navbar
+    navHome: "Utama",
+    navServices: "Servis",
+    navPortfolio: "Portfolio",
+    navAbout: "Tentang",
+    navContact: "Hubungi",
+    
+    // Hero
+    heroGreeting: "FunTechz Digital Services",
+    heroTitlePart1: "Jadikan ",
+    heroTitlePart2: "Karier",
+    heroTitlePart3: " & ",
+    heroTitlePart4: "Bisnes",
+    heroTitleSuffix: " Anda Digital",
+    heroSubtitle: "Website & Resume Profesional",
+    heroDesc: "Kami pakar dalam membantu perniagaan dan individu mencapai potensi sebenar melalui reka bentuk web dan resume yang profesional.",
+    heroBtnPrimary: "WhatsApp Sekarang",
+    heroBtnSecondary: "Lihat Portfolio",
+    heroStat1: "Google Maps",
+    heroStat1Desc: "Mudah Dijumpai",
+    heroStat2: "Website",
+    heroStat2Desc: "Profil Profesional",
+    heroStat3: "Sistem",
+    heroStat3Desc: "Tempahan Automatik",
+
+    // Services
+    servicesTitle: "Servis Kami",
+    servicesBtn: "Tanya Harga",
+    service1Title: "Resume / CV",
+    service1Desc: "Reka bentuk profesional mesra-ATS. Format Harvard atau susun atur moden.",
+    service2Title: "Website Portfolio",
+    service2Desc: "Laman web peribadi yang kemas untuk menyerlahkan bakat dan kerja anda.",
+    service3Title: "Presentation / Deck",
+    service3Desc: "Slaid persembahan yang mantap untuk tugasan, pembentangan, atau projek.",
+    service4Title: "Simple Web App",
+    service4Desc: "Landing page, borang, atau sistem kecil — HTML/CSS/JS atau React.",
+    service5Title: "Cloud Setup",
+    service5Desc: "Senibina asas AWS, hosting, atau bantuan pelancaran web.",
+
+    // Portfolio
+    portfolioTitle: "Portfolio Projek",
+    portfolioBtn: "Lihat Portfolio Penuh",
+    portfolioTypeWebApp: "WEB APP",
+    portfolioTypeCloud: "CLOUD",
+    portfolioTypeCyber: "CYBERSEC",
+    portfolioTypeFull: "FULLSTACK",
+    port1Title: "MindCare Malaysia",
+    port1Desc: "Platform kesihatan mental untuk pelajar universiti Malaysia.",
+    port2Title: "AMERTA Pipeline",
+    port2Desc: "Sistem pemantauan SCADA masa nyata untuk rangkaian gas dan minyak.",
+    port3Title: "AEGIS Cyber Dashboard",
+    port3Desc: "Papan pemuka SOC berasaskan awan dengan glob ancaman 3D.",
+    port4Title: "NIYYAH",
+    port4Desc: "Super App Islamik untuk Muslim di Malaysia dengan ciri Al-Quran & Waktu Solat.",
+
+    // About
+    aboutTitle: "Mengenai Pengasas",
+    aboutSubtitle: "Pakar Pembangunan Digital Anda",
+    aboutDesc: "Di FunTechz Digital Services, kami menggabungkan kepakaran teknikal yang kukuh dengan pemahaman mendalam tentang keperluan perniagaan tempatan untuk memberikan penyelesaian digital terbaik.",
+    aboutItem1Title: "Muhammad Irfan Bin Rizal",
+    aboutItem1Desc: "Pengasas & Pembangun Utama FunTechz.",
+    aboutItem2Title: "Latar Belakang Akademik",
+    aboutItem2Desc: "Pelajar B.Tech Cloud Computing di Universiti Teknikal Malaysia Melaka (UTeM).",
+    aboutItem3Title: "Sijil Profesional",
+    aboutItem3Desc: "Pemegang sijil AWS Certified & Cisco Network Defense.",
+
+    // Contact
+    contactTitle: "Hubungi Kami",
+    contactSubtitle: "Sedia Untuk Transformasi Digital?",
+    contactDesc: "Sama ada anda ingin membina laman web, sistem tempahan, atau pakej lengkap, kami sedia membantu merealisasikannya.",
+    contactBtnWa: "WhatsApp Kami",
+    contactFormName: "Nama Anda / Syarikat",
+    contactFormNamePlaceholder: "Masukkan nama...",
+    contactFormEmail: "Emel",
+    contactFormEmailPlaceholder: "Masukkan emel...",
+    contactFormDetails: "Keperluan Projek",
+    contactFormDetailsPlaceholder: "Nyatakan keperluan bisnes anda...",
+    contactSubmitBtn: "Hantar Pertanyaan",
+
+    // Testimonials
+    testiTitle: "Ulasan Klien",
+    testi1Name: "Ahmad Faizal",
+    testi1Role: "Pemilik Kafe",
+    testi1Text: "Semenjak ada website dan sistem tempahan dari FunTechz, kafe saya sentiasa penuh. Pengurusan sangat teratur. Terbaik!",
+    testi2Name: "Sarah Liyana",
+    testi2Role: "Pereka Bebas",
+    testi2Text: "Portfolio yang dibina memang moden dan pantas. Ramai klien puji rekaan yang sangat kemas dan profesional.",
+    testi3Name: "Dr. Kamal",
+    testi3Role: "Pengasas Klinik",
+    testi3Text: "Kerja yang sangat teliti dan pantas. Pendaftaran Google Maps sangat membantu pesakit mencari klinik kami.",
+
+    // FAQ
+    faqTitle: "Soalan Lazim",
+    faq1Q: "Berapa lama masa diambil untuk siapkan website?",
+    faq1A: "Untuk laman web perniagaan standard, ia mengambil masa sekitar 7 hingga 14 hari bergantung pada bahan yang diberikan.",
+    faq2Q: "Adakah saya perlu membayar deposit?",
+    faq2A: "Ya, kami memerlukan 50% deposit sebelum memulakan projek sebagai komitmen antara kedua-dua pihak.",
+    faq3Q: "Bolehkah saya kemas kini kandungan sendiri nanti?",
+    faq3A: "Sudah tentu! Kami membina laman web menggunakan CMS yang mudah supaya anda boleh menukar gambar dan teks tanpa kod.",
+    faq4Q: "Adakah hosting dan domain termasuk sekali?",
+    faq4A: "Kami menyediakan khidmat pendaftaran domain & hosting. Bergantung pada pakej, kos tahun pertama mungkin telah dirangkumkan.",
+    
+    // Footer
+    footerText: "© 2026 FunTechz Digital Services. Hak cipta terpelihara."
+  }
+};

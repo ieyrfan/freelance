@@ -1,0 +1,39 @@
+.testimonials-section {
+  position: relative;
+  background-color: var(--bg-main);
+}
+
+.testi-card {
+  padding: 3rem 2.5rem;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.testi-icon {
+  color: var(--accent-primary);
+  margin-bottom: 1.5rem;
+  opacity: 0.5;
+}
+
+.testi-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-body);
+  font-style: italic;
+  margin-bottom: 2rem;
+  flex-grow: 1;
+}
+
+.testi-author h4 {
+  font-size: 1.1rem;
+  color: var(--text-title);
+  margin-bottom: 0.2rem;
+}
+
+.testi-author p {
+  font-size: 0.9rem;
+  color: var(--accent-primary);
+  font-weight: 500;
+}

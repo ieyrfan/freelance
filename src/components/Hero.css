@@ -1,0 +1,117 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding-top: 6rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.greeting {
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 100px;
+  color: var(--accent-primary);
+  box-shadow: var(--shadow-inset);
+}
+
+.name {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: var(--text-title);
+}
+
+.name span {
+  color: var(--accent-primary);
+}
+
+.title {
+  font-size: 1.5rem;
+  color: var(--text-body);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: var(--text-body);
+  margin: 0 auto 3rem auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.hero-cta {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 3rem;
+  padding: 2rem 3rem;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: var(--shadow-outset);
+  min-width: 150px;
+}
+
+.stat h3 {
+  font-size: 1.2rem;
+  color: var(--text-title);
+  font-weight: 600;
+}
+
+.stat p {
+  color: var(--text-body);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.stat-icon {
+  margin-bottom: 0.5rem;
+  color: var(--accent-primary);
+}
+
+.glow-orb {
+  display: none;
+}
+
+@media (max-width: 968px) {
+  .name {
+    font-size: 2.8rem;
+  }
+  
+  .hero-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}

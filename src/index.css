@@ -65,6 +65,8 @@ body::before, body::after {
   opacity: 0.4;
   animation: floatOrb 25s infinite alternate ease-in-out;
   pointer-events: none;
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 body::before {
@@ -230,6 +232,12 @@ h1, h2, h3, h4, h5, h6 {
   
   .grid-2, .grid-3 {
     gap: 2rem;
+  }
+  
+  /* Disable heavy blur animation on mobile */
+  body::before, body::after {
+    animation: none;
+    filter: blur(80px);
   }
 }
 

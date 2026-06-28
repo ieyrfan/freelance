@@ -66,8 +66,45 @@
   font-weight: 700 !important;
 }
 
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text-title);
+  cursor: pointer;
+}
+
 @media (max-width: 968px) {
+  .mobile-menu-btn {
+    display: block;
+    z-index: 1001;
+  }
+  
   .nav-links {
-    display: none;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100vh;
+    background-color: var(--bg-main);
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    transition: right 0.4s ease;
+    box-shadow: -10px 0 20px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+  
+  .nav-links.active {
+    right: 0;
+  }
+  
+  .links-group, .actions-group {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .links-group a {
+    font-size: 1.2rem;
   }
 }

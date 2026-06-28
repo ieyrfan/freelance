@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
-import { Moon, Sun } from 'lucide-react';
+import { Moon, Sun, Menu, X } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useTheme } from '../context/ThemeContext';
 import './Navbar.css';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { lang, toggleLang, t } = useLanguage();
   const { theme, toggleTheme } = useTheme();
 
@@ -21,15 +22,16 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled glass' : ''}`}>
       <div className="container nav-content">
         <a href="#home" className="brand">Fun<span>Techz</span></a>
-        <div className="nav-links">
+        
+        <div className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
           <div className="links-group">
-            <a href="#home">{t.navHome}</a>
-            <a href="#services">{t.navServices}</a>
-            <a href="#portfolio">{t.navPortfolio}</a>
-            <a href="#about">{t.navAbout}</a>
+            <a href="#home" onClick={() => setMobileMenuOpen(false)}>{t.navHome}</a>
+            <a href="#services" onClick={() => setMobileMenuOpen(false)}>{t.navServices}</a>
+            <a href="#portfolio" onClick={() => setMobileMenuOpen(false)}>{t.navPortfolio}</a>
+            <a href="#about" onClick={() => setMobileMenuOpen(false)}>{t.navAbout}</a>
           </div>
           <div className="actions-group">
-            <a href="#contact" className="btn btn-primary">{t.navContact}</a>
+            <a href="#contact" className="btn btn-primary" onClick={() => setMobileMenuOpen(false)}>{t.navContact}</a>
             <button onClick={toggleLang} className="btn btn-secondary lang-toggle" title="Toggle Language">
               {lang === 'en' ? 'BM' : 'EN'}
             </button>
@@ -38,6 +40,13 @@ const Navbar = () => {
             </button>
           </div>
         </div>
+
+        <button 
+          className="mobile-menu-btn" 
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+        >
+          {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
       </div>
     </nav>
   );
